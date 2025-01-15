@@ -1,7 +1,12 @@
 import java.util.*;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
-public class Client {
+interface Ibank {
+    void put(double summa);
+    void get(double summa);
+}
+
+public class Client implements Ibank {
     private String name; // имя клиента
     private double summa_bank; // сумма вклада
 

@@ -1,7 +1,7 @@
 import java.util.*;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
-public class Client implements   {
+public class Client {
     private String name; // имя клиента
     private double summa_bank; // сумма вклада
 
